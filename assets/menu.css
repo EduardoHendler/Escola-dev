@@ -1,0 +1,33 @@
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.menu_principal {
+	background-color: rgb(183, 196, 185);
+	padding: 20px 0;
+}
+
+.menu_principal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.menu_principal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menu_principal-nav-link {
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #292a2e;
+	background-color: rgb(183, 196, 185);
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+    border-radius: 5px;
+
+	border: 1px solid #1a1a1b;
+}
