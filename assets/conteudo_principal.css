@@ -1,0 +1,75 @@
+.conteudo_principal {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	
+}
+
+.conteudo_principal-subtitulo {
+	font-weight: bold;
+	font-size: 2rem;
+	margin:1.5rem;
+	text-align: center;
+}
+
+.conteudo_principal-cursos--link {
+	height: 6rem;
+	background-color: #0a0a0a;
+	text-align: center;
+	margin: 0.5rem;
+	padding:0.5rem;
+	transition: .5s;
+	box-shadow: 3px 3px 3px #ac2a2a;
+	position: relative;
+}
+
+.conteudo_principal-cursos--link a {
+	text-decoration: none;
+	color: #cfc6c6;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.conteudo_principal-cursos--link:hover {
+	box-shadow: 6px 6px 6px #1829c0;
+	scale: 1.06;
+}
+
+.conteudo_principal-cursos--link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 1rem auto;
+}
+
+.conteudo_principal-cursos--link:nth-child(even) :before {
+	background: url(../img/background1.svg) no-repeat;	
+}
+
+.conteudo_principal-cursos--link:nth-child(odd) :before {
+	background: url(../img/background2.svg) no-repeat;
+}
+@media (max-width: 768px) {
+.conteudo_principal-cursos--link {
+margin:none;
+padding: 0.5rem;
+
+}
+}
+
+.video_sobre {
+	width: 100%;
+	background-color: aqua;
+}
+.video_sobre-video {
+width:50%;
+justify-content: center;
+
+padding:1rem;
+margin-left: 25%;
+}

@@ -1,40 +1,39 @@
 .container {
-	width: 85%;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0 ;
 }
 
 .menu_principal {
-    background-color: rgb(183, 196, 185);
+	background-color: rgb(66, 56, 85);
 	padding: none;
 }
 
-
-
 .menu_principal-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .menu_principal-nav-link {
 	padding:  1rem 5.2rem;
 	margin-bottom: 5px ;
-	color: #292a2e;
-	background-color: rgb(183, 196, 185);
+	color: #dedbe0;
+	background-color: rgb(66, 56, 85);
 	text-decoration: none;
 	transition: .5s;
     border-radius: 2px;
-    font-size: 1rem;
-	
+    font-size: 1rem;	
 }
 
 .menu_principal-nav-link:hover {
 color:aqua;
 background-color:rgb(66, 56, 85);
-scale: 1.01;
+scale: 1.06;
 border-radius:0.5rem;
-
 }
 
-@media screen {
-    
+@media (max-width: 768px) {
+.menu_principal-nav {
+	flex-direction:column;
+	align-items: center;
+}
 }
