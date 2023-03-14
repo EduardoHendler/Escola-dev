@@ -1,0 +1,38 @@
+.video_sobre {
+	width: 100%;
+	background-color: rgb(36, 187, 187);
+    padding: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: none;
+	}
+
+.video_sobre-video {
+	width:100%;
+	padding:4rem;
+	}
+
+.video_sobre-sobre {
+	display: inline;
+	display: 50%;
+	padding: 30px;
+	font-size: 1.3em;
+	line-height: 2;
+	}
+
+.video_sobre-title {
+	font-size: 1.2em;
+	font-weight: bolder;
+	}
+
+.video_sobre-button {
+	border-radius: 8px;
+	background-color: #ec6e5a;
+	display: block;
+	color: #FFF;
+	border: none;
+	height: 50px;
+	font-size: .8em;
+    padding: 1rem;	
+	}

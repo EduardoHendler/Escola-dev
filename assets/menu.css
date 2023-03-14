@@ -25,15 +25,15 @@
 }
 
 .menu_principal-nav-link:hover {
-color:aqua;
-background-color:rgb(66, 56, 85);
-scale: 1.06;
-border-radius:0.5rem;
-}
+	color:aqua;
+	background-color:rgb(66, 56, 85);
+	scale: 1.06;
+	border-radius:0.5rem;
+	}
 
 @media (max-width: 768px) {
-.menu_principal-nav {
+	.menu_principal-nav {
 	flex-direction:column;
 	align-items: center;
-}
-}
+	}
+	}

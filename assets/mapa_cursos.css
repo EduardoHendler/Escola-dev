@@ -1,0 +1,37 @@
+.subtitulo {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 32px;
+    margin-top: 2rem;
+    padding-left: 4rem;
+    }
+
+.rodape_principal-mapa--list {
+    justify-content: center;
+    align-items: center;
+    padding-left: 4rem;
+    }
+
+.rodape_principal-mapa--link {
+    color: #FFF;
+    margin-top: 1rem;
+    }
+
+.rodape_principal-mapa--link {
+    font-size: .9em;
+    }
+
+.mapa_list-title {
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: .7em 0;
+    padding-left: .3em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    }
+
+
+.mapa_list-title--bancoDeDados { color: #EC6E5A; border-left: 4px solid #EC6E5A; }
+.mapa_list-title--framework { color: #AD85BF; border-left: 4px solid #AD85BF; }
+.mapa_list-title--frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
+.mapa_list-title--backend { color: #25D285; border-left: 4px solid #25D285; }
