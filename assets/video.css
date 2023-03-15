@@ -1,11 +1,11 @@
 .video_sobre {
 	width: 100%;
-	background-color: rgb(36, 187, 187);
+	background-color: #bcb8b1;
     padding: 1.5rem;
     justify-content: space-around;
     align-items: center;
     display: flex;
-    margin: none;
+    margin:none;
 	}
 
 .video_sobre-video {
@@ -14,15 +14,14 @@
 	}
 
 .video_sobre-sobre {
-	display: inline;
-	display: 50%;
-	padding: 30px;
-	font-size: 1.3em;
+	width: 30%;
+	padding: 1rem;
+	font-size: 1.2em;
 	line-height: 2;
 	}
 
 .video_sobre-title {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: bolder;
 	}
 
@@ -35,4 +34,36 @@
 	height: 50px;
 	font-size: .8em;
     padding: 1rem;	
+	}
+
+	.video_sobre-button:hover {
+	scale: 1.03;
+	transition: 0.4s;
+	cursor: pointer; ;
+	}
+
+	@media (max-width: 768px) {
+	
+	.video_sobre {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+		margin: 0;
+		}
+
+	.video_sobre-sobre {
+		padding: 0;
+		margin-bottom: 1rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100vw;
+		}
+
+	
+	.video_sobre-video {
+		padding: 0;
+		margin: 0;
+		width: 100vw;
+	}
 	}
