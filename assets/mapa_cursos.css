@@ -27,28 +27,42 @@
     padding-bottom: .2em;
     }
 
+.mapa_list-title--bancoDeDados {
+    color: #EC6E5A;
+    border-left: 4px solid #EC6E5A; 
+    }
 
-.mapa_list-title--bancoDeDados { color: #EC6E5A; border-left: 4px solid #EC6E5A; }
-.mapa_list-title--framework { color: #722097; border-left: 4px solid #AD85BF; }
-.mapa_list-title--frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
-.mapa_list-title--backend { color: #25D285; border-left: 4px solid #25D285; }
+.mapa_list-title--framework { 
+    color: #722097;
+    border-left: 4px solid #AD85BF;
+    }
+
+.mapa_list-title--frontend { 
+    color: #5EC6F3; 
+    border-left: 4px solid #5EC6F3; 
+    }
+
+.mapa_list-title--backend { 
+    color: #25D285; 
+    border-left: 4px solid #25D285; 
+    }
 
 @media (max-width: 768px) {
 
 .rodape_principal-mapa {
-padding: 0;
-margin-bottom:.5rem;
-justify-content: center;
-}   
+    padding: 0;
+    margin-bottom:.5rem;
+    justify-content: center;
+    }   
 
 .rodape_principal-mapa--list {
     padding: 1rem;
     margin: 1rem;
     align-items: center;
     justify-content: center;
-}
+    }
 
 .rodape_principal-mapa--link {
     margin-bottom: 1rem;
-}
-}
+    }
+    }
